@@ -31,7 +31,7 @@ def collect_unavailable(items: list[dict]) -> tuple[list[dict], list[dict]]:
             continue
         entry = {
             "name": it.get("name", ""),
-            "github": it.get("github", it.get("github_url", "")),
+            "github": it.get("github") or it.get("github_url", ""),
             "country": it.get("country", it.get("region", "")),
             "unavailable_since": it.get("unavailable_since", ""),
             "consecutive_unavailable": int(it.get("consecutive_unavailable", 0)),

@@ -24,6 +24,15 @@ def format_number(val):
         return f"{int(val):,}"
     return str(val)
 
+def is_rankable(it):
+    """랭킹·검색 대상 여부 — 404(unavailable)·archived 레포는 결과에서 제외한다
+    (generate_global_readme.py의 글로벌 Top 100 필터와 동일한 기준)."""
+    return it.get("status") != "unavailable" and not it.get("archived")
+
+def fmt_rank(rank):
+    """랭크 배지 — 명시적 null이면 README의 `-` 표기 규칙에 맞춰 `#-`로 표시한다."""
+    return f"#{rank:02d}" if isinstance(rank, int) else "#-"
+
 def main():
     parser = argparse.ArgumentParser(description="Awesome Global AI Vault & Leaderboard Search")
     parser.add_argument("--top", type=int, nargs="?", const=100, default=None, help="Display Top N global projects (default: 100)")
@@ -86,24 +95,29 @@ def main():
     if target_country and args.top is None:
         c_items = []
         for it in data:
+            if it.get("status") == "unavailable":
+                continue  # README 국가 표와 동일 — 사라진 레포는 제외(archived는 순위 #-로 표시)
             c_name = it.get("country", it.get("region", "")).lower()
             c_code = it.get("country_code", "").lower()
             if target_country in c_name or target_country == c_code:
                 c_items.append(it)
 
-        c_items.sort(key=lambda x: x.get("rank_country", x.get("rank_global", 999)))
+        c_items.sort(key=lambda x: x.get("rank_country") or x.get("rank_global") or 999)
         print(f"\n🗺️ [Top 20 Leaderboard: {target_country.upper()}] (총 {len(c_items)}개)")
         print("=" * 85)
         for it in c_items[:20]:
-            c_rank = it.get("rank_country", "-")
-            g_rank = it.get("rank_global", "-")
+            c_rank = it.get("rank_country")
+            g_rank = it.get("rank_global")
             status = it.get("status", "⚡ Active")
+            if it.get("archived"):
+                status = "📦 Archived"
+                c_rank = g_rank = None  # 순위 제외 — README와 동일하게 잔류 순위를 표시하지 않는다
             name = it.get("name", "")
             stars = format_number(it.get("stars", 0))
             score = it.get("score", 0.0)
             summary = it.get("summary", "")
             gh = it.get("github", "")
-            print(f"#{c_rank:02d} (전세계 #{g_rank:02d}) | {status} | {name:<22} | ⭐ {stars:<8} | 점수 {score:<5} | {gh}")
+            print(f"{fmt_rank(c_rank)} (전세계 {fmt_rank(g_rank)}) | {status} | {name:<22} | ⭐ {stars:<8} | 점수 {score:<5} | {gh}")
             print(f"     👉 {summary}")
             print("-" * 85)
         print()
@@ -111,12 +125,13 @@ def main():
 
     # Top N mode
     if args.top is not None:
-        data.sort(key=lambda x: x.get("rank_global", 999))
-        results = data[:args.top]
-        print(f"\n🏆 [Global AI Leaderboard Top {args.top}] (총 {len(data)}개 중)")
+        top_items = [it for it in data if is_rankable(it)]  # README 글로벌 Top 100과 동일 기준
+        top_items.sort(key=lambda x: x.get("rank_global") or 999)
+        results = top_items[:args.top]
+        print(f"\n🏆 [Global AI Leaderboard Top {args.top}] (총 {len(top_items)}개 중)")
         print("=" * 85)
         for it in results:
-            rank = it.get("rank_global", "-")
+            rank = it.get("rank_global")
             status = it.get("status", "⚡ Active")
             name = it.get("name", "")
             cntry = it.get("country", it.get("region", "")).split("(")[0].strip()
@@ -124,7 +139,7 @@ def main():
             score = it.get("score", 0.0)
             summary = it.get("summary", "")
             gh = it.get("github", "")
-            print(f"#{rank:02d} | {status} | {name:<22} | {cntry:<8} | ⭐ {stars:<8} | 점수 {score:<5} | {gh}")
+            print(f"{fmt_rank(rank)} | {status} | {name:<22} | {cntry:<8} | ⭐ {stars:<8} | 점수 {score:<5} | {gh}")
             print(f"     👉 {summary}")
             print("-" * 85)
         print()
@@ -133,6 +148,9 @@ def main():
     # General query filtering
     results = []
     for item in data:
+        if not is_rankable(item):
+            continue  # README 글로벌 랭킹과 동일 — unavailable/archived 레포 제외
+
         if target_country:
             c_name = item.get("country", item.get("region", "")).lower()
             c_code = item.get("country_code", "").lower()
@@ -155,19 +173,19 @@ def main():
 
         results.append(item)
 
-    results.sort(key=lambda x: x.get("rank_global", 999))
+    results.sort(key=lambda x: x.get("rank_global") or 999)
 
     print(f"\n🔍 검색 결과: {len(results)}건 / 총 {len(data)}건")
     print("=" * 80)
     for it in results:
-        g_rank = it.get("rank_global", "-")
-        c_rank = it.get("rank_country", "-")
+        g_rank = it.get("rank_global")
+        c_rank = it.get("rank_country")
         status = it.get("status", "⚡ Active")
         stars = format_number(it.get("stars", 0))
         forks = format_number(it.get("forks", 0))
         score = it.get("score", 0.0)
 
-        print(f"[전세계 #{g_rank:02d} | 국가 #{c_rank:02d}] {it.get('name')} ({it.get('execution_type')}) - {status}")
+        print(f"[전세계 {fmt_rank(g_rank)} | 국가 {fmt_rank(c_rank)}] {it.get('name')} ({it.get('execution_type')}) - {status}")
         print(f"  • 국가/권역 : {it.get('country', it.get('region'))}")
         print(f"  • 카테고리  : {it.get('category')}")
         print(f"  • 개발/조직 : {it.get('author')}")

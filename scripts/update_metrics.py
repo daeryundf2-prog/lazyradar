@@ -117,7 +117,7 @@ def update_items(items, fetcher, now_dt):
     removal_candidates = []
 
     for i, item in enumerate(items):
-        repo_url = item.get("github", item.get("github_url", ""))
+        repo_url = item.get("github") or item.get("github_url", "") or ""
         # Extract owner/repo from https://github.com/owner/repo
         if "github.com/" in repo_url:
             parts = repo_url.rstrip("/").split("github.com/")[-1].split("/")

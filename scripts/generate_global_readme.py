@@ -19,6 +19,11 @@ def format_number(val):
         return f"{int(val):,}"
     return str(val)
 
+def country_sort_key(item):
+    """국가별 Top 20 정렬 키 — rank_country가 명시적 null이면 글로벌 순위로,
+    둘 다 null(unavailable/archived 등으로 순위 제외된 항목)이면 맨 뒤로 보낸다."""
+    return item.get("rank_country") or item.get("rank_global") or 999
+
 def main():
     if not os.path.exists(DATA_PATH):
         print(f"Error: {DATA_PATH} not found.")
@@ -53,6 +58,7 @@ def main():
         "JP": {"title": "🇯🇵 일본 (Japan) Top 20", "anchor": "cntry-jp", "items": []},
     }
 
+    unmatched = []
     for it in items:
         if it.get("status") == "unavailable":
             continue  # 사라진 레포는 표에 싣지 않는다
@@ -71,10 +77,18 @@ def main():
         elif "일본" in cname or "Japan" in cname:
             country_groups["JP"]["items"].append(it)
         else:
+            unmatched.append(it)
             country_groups["US"]["items"].append(it)
 
+    if unmatched:
+        names = ", ".join(
+            f"{it.get('name', '?')}(country='{it.get('country', it.get('region', ''))}', country_code='{it.get('country_code', '')}')"
+            for it in unmatched
+        )
+        print(f"⚠️ Warning: {len(unmatched)} item(s)에 매칭되는 국가가 없어 US 버킷에 배치했습니다: {names}")
+
     for code in country_groups:
-        country_groups[code]["items"].sort(key=lambda x: x.get("rank_country", x.get("rank_global", 999)))
+        country_groups[code]["items"].sort(key=country_sort_key)
 
     md = []
     md.append("# 🛰️ lazyradar: Global AI Tech Radar & 5-Nation Top 20")
@@ -85,7 +99,7 @@ def main():
     md.append("")
     md.append("[![Weekly lazyradar Sync & Leaderboard](https://github.com/daeryundf2-prog/lazyradar/actions/workflows/weekly-sync.yml/badge.svg)](https://github.com/daeryundf2-prog/lazyradar/actions/workflows/weekly-sync.yml) ")
     md.append(f"![Last Synced](https://img.shields.io/badge/Last%20Synced-{now_utc.replace(' ', '%20')}-blue) ")
-    md.append("![Tracked Repos](https://img.shields.io/badge/Tracked%20Repositories-100-success) ")
+    md.append(f"![Tracked Repos](https://img.shields.io/badge/Tracked%20Repositories-{len(items)}-success) ")
     md.append("![5 Nations](https://img.shields.io/badge/Major%20Nations-US%20|%20CN%20|%20KR%20|%20EU%20|%20JP-purple) ")
     md.append("![Lazy Series](https://img.shields.io/badge/Lazy%20Series-Official%20Radar-orange) ")
     md.append("![Weekly Cron](https://img.shields.io/badge/Sync%20Schedule-Every%20Monday%2009:00%20KST-green)")
@@ -245,7 +259,7 @@ flowchart LR
     md.append("")
     md.append("- **방법론**:")
     md.append("  - **목록 선정 기준**: 추적 대상 100개는 관리자가 수동 선정한 큐레이션 목록입니다. 국가 분류는 조직/저자의 공개 정보에 따릅니다. 신규 항목은 자동으로 목록에 합류하지 않고 Emerging 후보에만 표시됩니다.")
-    md.append("  - **Emerging 후보의 한계**: `discover_trending.py`는 고정 토픽 쿼리(`topic:mcp`, `topic:agent`, `deepseek`, `speech-to-speech`)의 누적 스타 상위 결과를 가져옵니다. 생성일/푸시일 필터와 주간 스타 증가분 지표가 없으므로 '급부상'이 아니라 '미등록 고스타 레포'로 해석해야 합니다.")
+    md.append("  - **Emerging 후보의 한계**: `discover_trending.py`는 고정 토픽/키워드 쿼리(`topic:llm`, `topic:ai-agent`, `topic:mcp`, `deepseek`, `speech-to-speech`)에 최근 생성(14일 이내) 또는 최근 푸시(7일 이내) 필터를 적용해 신규·활발 레포를 포착합니다. 다만 주간 스타 증가분 지표는 없으므로 '급부상 순위'가 아니라 '최근 활동 중인 미등록 후보'로 해석해야 합니다.")
     md.append("")
     md.append("---")
     md.append("")
