@@ -1,72 +1,83 @@
 {
-  "last_searched_at": "2026-10-12 05:18:28 UTC",
-  "total_emerging": 6,
+  "last_searched_at": "2026-10-19 04:03:44 UTC",
+  "total_emerging": 7,
   "candidates": [
+    {
+      "name": "rea",
+      "full_name": "morluto/rea",
+      "github": "https://github.com/morluto/rea",
+      "stars": 324635,
+      "forks": 82227,
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "language": "TypeScript",
+      "pushed_at": "2026-10-19T03:57:09Z",
+      "discovered_at": "2026-10-19"
+    },
     {
       "name": "ECC",
       "full_name": "affaan-m/ECC",
       "github": "https://github.com/affaan-m/ECC",
-      "stars": 277348,
-      "forks": 41367,
+      "stars": 283391,
+      "forks": 42099,
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "pushed_at": "2026-10-12T04:36:27Z",
-      "discovered_at": "2026-10-12"
+      "pushed_at": "2026-10-15T19:17:01Z",
+      "discovered_at": "2026-10-19"
     },
     {
       "name": "firecrawl",
       "full_name": "firecrawl/firecrawl",
       "github": "https://github.com/firecrawl/firecrawl",
-      "stars": 190584,
-      "forks": 10123,
+      "stars": 192834,
+      "forks": 10184,
       "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
       "language": "TypeScript",
-      "pushed_at": "2026-10-12T01:04:44Z",
-      "discovered_at": "2026-10-12"
+      "pushed_at": "2026-10-19T02:07:37Z",
+      "discovered_at": "2026-10-19"
     },
     {
       "name": "JavaGuide",
       "full_name": "Snailclimb/JavaGuide",
       "github": "https://github.com/Snailclimb/JavaGuide",
-      "stars": 158951,
-      "forks": 46162,
+      "stars": 159122,
+      "forks": 46118,
       "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
       "language": "JavaScript",
-      "pushed_at": "2026-10-12T04:50:18Z",
-      "discovered_at": "2026-10-12"
-    },
-    {
-      "name": "open-webui",
-      "full_name": "open-webui/open-webui",
-      "github": "https://github.com/open-webui/open-webui",
-      "stars": 154349,
-      "forks": 22608,
-      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-      "language": "Python",
-      "pushed_at": "2026-10-11T18:17:41Z",
-      "discovered_at": "2026-10-12"
+      "pushed_at": "2026-10-16T06:30:59Z",
+      "discovered_at": "2026-10-19"
     },
     {
       "name": "betterwispr",
       "full_name": "opennookorg/betterwispr",
       "github": "https://github.com/opennookorg/betterwispr",
-      "stars": 226,
-      "forks": 14,
+      "stars": 393,
+      "forks": 26,
       "description": "Free, open-source, local-first dictation app for macOS. Hold a shortcut, speak, and text is typed into any app. On-device speech-to-text with Whisper, Parakeet and Apple speech. Private, offline, open-source Wispr Flow alternative.",
       "language": "Swift",
-      "pushed_at": "2026-10-12T05:16:35Z",
-      "discovered_at": "2026-10-12"
+      "pushed_at": "2026-10-15T14:40:30Z",
+      "discovered_at": "2026-10-19"
     },
     {
-      "name": "ema-lightning",
-      "full_name": "canberk7/ema-lightning",
-      "github": "https://github.com/canberk7/ema-lightning",
-      "stars": 174,
-      "forks": 25,
-      "description": "Tiny, fast and accurate Turkish text-to-speech. 8.6M parameters, 0.92% WER on Freya-TR-Eval, first audio in ~4 ms and 1,300× real time on one GPU. Streams audio, batches many callers on one GPU, and runs offline on a GPU or CPU.",
+      "name": "ComfyUI-Drama3",
+      "full_name": "PedroMarinhoDev/ComfyUI-Drama3",
+      "github": "https://github.com/PedroMarinhoDev/ComfyUI-Drama3",
+      "stars": 81,
+      "forks": 10,
+      "description": "Fish Audio Drama 3 text to speech, natively in ComfyUI: voice cloning, dialogue and inline cues on cards from 8 GB, plus a native Qwen3-ASR. Built with Fish Audio.",
       "language": "Python",
-      "pushed_at": "2026-10-10T22:46:35Z",
-      "discovered_at": "2026-10-12"
+      "pushed_at": "2026-10-17T12:56:57Z",
+      "discovered_at": "2026-10-19"
+    },
+    {
+      "name": "ahenk-turkish-tts",
+      "full_name": "ozguradmin/ahenk-turkish-tts",
+      "github": "https://github.com/ozguradmin/ahenk-turkish-tts",
+      "stars": 81,
+      "forks": 5,
+      "description": "Ahenk: açık Türkçe metinden sese. Open Turkish text-to-speech: VoxCPM2 LoRA (Ahenk), 8.6M on-device model (Ahenk Cep), trnorm text normaliser, TR-Zor benchmark",
+      "language": "Python",
+      "pushed_at": "2026-10-19T01:18:57Z",
+      "discovered_at": "2026-10-19"
     }
   ]
 }
