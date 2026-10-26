@@ -1,83 +1,105 @@
 {
-  "last_searched_at": "2026-10-19 04:03:44 UTC",
-  "total_emerging": 7,
+  "last_searched_at": "2026-10-26 04:06:56 UTC",
+  "total_emerging": 9,
   "candidates": [
     {
       "name": "rea",
       "full_name": "morluto/rea",
       "github": "https://github.com/morluto/rea",
-      "stars": 324635,
-      "forks": 82227,
+      "stars": 385621,
+      "forks": 96573,
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
-      "pushed_at": "2026-10-19T03:57:09Z",
-      "discovered_at": "2026-10-19"
+      "pushed_at": "2026-10-25T19:21:28Z",
+      "discovered_at": "2026-10-26"
     },
     {
       "name": "ECC",
       "full_name": "affaan-m/ECC",
       "github": "https://github.com/affaan-m/ECC",
-      "stars": 283391,
-      "forks": 42099,
+      "stars": 288944,
+      "forks": 42834,
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "pushed_at": "2026-10-15T19:17:01Z",
-      "discovered_at": "2026-10-19"
+      "pushed_at": "2026-10-26T04:03:57Z",
+      "discovered_at": "2026-10-26"
     },
     {
       "name": "firecrawl",
       "full_name": "firecrawl/firecrawl",
       "github": "https://github.com/firecrawl/firecrawl",
-      "stars": 192834,
-      "forks": 10184,
+      "stars": 195371,
+      "forks": 10306,
       "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
       "language": "TypeScript",
-      "pushed_at": "2026-10-19T02:07:37Z",
-      "discovered_at": "2026-10-19"
+      "pushed_at": "2026-10-26T01:06:44Z",
+      "discovered_at": "2026-10-26"
     },
     {
       "name": "JavaGuide",
       "full_name": "Snailclimb/JavaGuide",
       "github": "https://github.com/Snailclimb/JavaGuide",
-      "stars": 159122,
-      "forks": 46118,
+      "stars": 159253,
+      "forks": 46127,
       "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
       "language": "JavaScript",
-      "pushed_at": "2026-10-16T06:30:59Z",
-      "discovered_at": "2026-10-19"
+      "pushed_at": "2026-10-25T11:47:10Z",
+      "discovered_at": "2026-10-26"
     },
     {
-      "name": "betterwispr",
-      "full_name": "opennookorg/betterwispr",
-      "github": "https://github.com/opennookorg/betterwispr",
-      "stars": 393,
-      "forks": 26,
-      "description": "Free, open-source, local-first dictation app for macOS. Hold a shortcut, speak, and text is typed into any app. On-device speech-to-text with Whisper, Parakeet and Apple speech. Private, offline, open-source Wispr Flow alternative.",
-      "language": "Swift",
-      "pushed_at": "2026-10-15T14:40:30Z",
-      "discovered_at": "2026-10-19"
+      "name": "ming-voice",
+      "full_name": "JMS1717/ming-voice",
+      "github": "https://github.com/JMS1717/ming-voice",
+      "stars": 293,
+      "forks": 15,
+      "description": "Low-latency local speech-to-speech voice assistant with Ming-3.0-audio-tiny on AMD and Nvidia GPUs. Easy setup on Windows and Linux",
+      "language": "Python",
+      "pushed_at": "2026-10-26T01:31:27Z",
+      "discovered_at": "2026-10-26"
+    },
+    {
+      "name": "whistle-esp32",
+      "full_name": "andrisgauracs/whistle-esp32",
+      "github": "https://github.com/andrisgauracs/whistle-esp32",
+      "stars": 172,
+      "forks": 29,
+      "description": "Whistle speech-to-text running fully on an ESP32-S3: hold a button, say a colour in one of 7 languages, the LED does it. No network.",
+      "language": "C",
+      "pushed_at": "2026-10-21T14:55:15Z",
+      "discovered_at": "2026-10-26"
+    },
+    {
+      "name": "drama-tensorfold",
+      "full_name": "plotarmordev/drama-tensorfold",
+      "github": "https://github.com/plotarmordev/drama-tensorfold",
+      "stars": 142,
+      "forks": 10,
+      "description": "Fish Audio Drama 3 text-to-speech on the TensorFold native CUDA engine for DGX Spark (GB10): recipe, engine patches, benchmarks. Built with Fish Audio.",
+      "language": "Python",
+      "pushed_at": "2026-10-25T16:55:14Z",
+      "discovered_at": "2026-10-26"
     },
     {
       "name": "ComfyUI-Drama3",
       "full_name": "PedroMarinhoDev/ComfyUI-Drama3",
       "github": "https://github.com/PedroMarinhoDev/ComfyUI-Drama3",
-      "stars": 81,
-      "forks": 10,
+      "stars": 110,
+      "forks": 14,
       "description": "Fish Audio Drama 3 text to speech, natively in ComfyUI: voice cloning, dialogue and inline cues on cards from 8 GB, plus a native Qwen3-ASR. Built with Fish Audio.",
       "language": "Python",
-      "pushed_at": "2026-10-17T12:56:57Z",
-      "discovered_at": "2026-10-19"
+      "pushed_at": "2026-10-25T02:59:48Z",
+      "discovered_at": "2026-10-26"
     },
     {
-      "name": "ahenk-turkish-tts",
-      "full_name": "ozguradmin/ahenk-turkish-tts",
-      "github": "https://github.com/ozguradmin/ahenk-turkish-tts",
-      "stars": 81,
-      "forks": 5,
-      "description": "Ahenk: açık Türkçe metinden sese. Open Turkish text-to-speech: VoxCPM2 LoRA (Ahenk), 8.6M on-device model (Ahenk Cep), trnorm text normaliser, TR-Zor benchmark",
-      "language": "Python",
-      "pushed_at": "2026-10-19T01:18:57Z",
-      "discovered_at": "2026-10-19"
+      "name": "speech-studio",
+      "full_name": "timoncool/speech-studio",
+      "github": "https://github.com/timoncool/speech-studio",
+      "stars": 100,
+      "forks": 10,
+      "description": "Free offline AI voice studio for Windows — text-to-speech with cloned and built-in voices, and speech recognition with speakers. Russian done right. 100% local, one native .exe, zero Python.",
+      "language": "Rust",
+      "pushed_at": "2026-10-26T02:20:58Z",
+      "discovered_at": "2026-10-26"
     }
   ]
 }
