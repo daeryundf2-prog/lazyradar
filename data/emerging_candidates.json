@@ -1,105 +1,83 @@
 {
-  "last_searched_at": "2026-10-26 04:06:56 UTC",
-  "total_emerging": 9,
+  "last_searched_at": "2026-11-02 05:21:00 UTC",
+  "total_emerging": 7,
   "candidates": [
     {
       "name": "rea",
       "full_name": "morluto/rea",
       "github": "https://github.com/morluto/rea",
-      "stars": 385621,
-      "forks": 96573,
+      "stars": 419592,
+      "forks": 104797,
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
-      "pushed_at": "2026-10-25T19:21:28Z",
-      "discovered_at": "2026-10-26"
+      "pushed_at": "2026-11-02T03:57:21Z",
+      "discovered_at": "2026-11-02"
     },
     {
       "name": "ECC",
       "full_name": "affaan-m/ECC",
       "github": "https://github.com/affaan-m/ECC",
-      "stars": 288944,
-      "forks": 42834,
+      "stars": 294934,
+      "forks": 43653,
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "pushed_at": "2026-10-26T04:03:57Z",
-      "discovered_at": "2026-10-26"
+      "pushed_at": "2026-11-02T04:56:08Z",
+      "discovered_at": "2026-11-02"
     },
     {
       "name": "firecrawl",
       "full_name": "firecrawl/firecrawl",
       "github": "https://github.com/firecrawl/firecrawl",
-      "stars": 195371,
-      "forks": 10306,
+      "stars": 197733,
+      "forks": 10448,
       "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
       "language": "TypeScript",
-      "pushed_at": "2026-10-26T01:06:44Z",
-      "discovered_at": "2026-10-26"
+      "pushed_at": "2026-11-02T05:17:27Z",
+      "discovered_at": "2026-11-02"
     },
     {
-      "name": "JavaGuide",
-      "full_name": "Snailclimb/JavaGuide",
-      "github": "https://github.com/Snailclimb/JavaGuide",
-      "stars": 159253,
-      "forks": 46127,
-      "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
-      "language": "JavaScript",
-      "pushed_at": "2026-10-25T11:47:10Z",
-      "discovered_at": "2026-10-26"
+      "name": "open-webui",
+      "full_name": "open-webui/open-webui",
+      "github": "https://github.com/open-webui/open-webui",
+      "stars": 157499,
+      "forks": 22901,
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "language": "Python",
+      "pushed_at": "2026-11-02T03:47:37Z",
+      "discovered_at": "2026-11-02"
+    },
+    {
+      "name": "cc-switch",
+      "full_name": "farion1231/cc-switch",
+      "github": "https://github.com/farion1231/cc-switch",
+      "stars": 150992,
+      "forks": 9926,
+      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io",
+      "language": "Rust",
+      "pushed_at": "2026-11-02T05:03:03Z",
+      "discovered_at": "2026-11-02"
     },
     {
       "name": "ming-voice",
       "full_name": "JMS1717/ming-voice",
       "github": "https://github.com/JMS1717/ming-voice",
-      "stars": 293,
-      "forks": 15,
+      "stars": 420,
+      "forks": 24,
       "description": "Low-latency local speech-to-speech voice assistant with Ming-3.0-audio-tiny on AMD and Nvidia GPUs. Easy setup on Windows and Linux",
       "language": "Python",
       "pushed_at": "2026-10-26T01:31:27Z",
-      "discovered_at": "2026-10-26"
+      "discovered_at": "2026-11-02"
     },
     {
-      "name": "whistle-esp32",
-      "full_name": "andrisgauracs/whistle-esp32",
-      "github": "https://github.com/andrisgauracs/whistle-esp32",
-      "stars": 172,
-      "forks": 29,
-      "description": "Whistle speech-to-text running fully on an ESP32-S3: hold a button, say a colour in one of 7 languages, the LED does it. No network.",
-      "language": "C",
-      "pushed_at": "2026-10-21T14:55:15Z",
-      "discovered_at": "2026-10-26"
-    },
-    {
-      "name": "drama-tensorfold",
-      "full_name": "plotarmordev/drama-tensorfold",
-      "github": "https://github.com/plotarmordev/drama-tensorfold",
-      "stars": 142,
-      "forks": 10,
-      "description": "Fish Audio Drama 3 text-to-speech on the TensorFold native CUDA engine for DGX Spark (GB10): recipe, engine patches, benchmarks. Built with Fish Audio.",
+      "name": "crisperwhisper-turkce-kelime-zamani",
+      "full_name": "alexturkey/crisperwhisper-turkce-kelime-zamani",
+      "github": "https://github.com/alexturkey/crisperwhisper-turkce-kelime-zamani",
+      "stars": 103,
+      "forks": 11,
+      "description": "Verbatim speech-to-text with word timestamps on a 4 GB GPU: CrisperWhisper 2.0 Turbo (CT2 int8) + wav2vec2 CTC alignment. Turkish-first, Linux/WSL2.",
       "language": "Python",
-      "pushed_at": "2026-10-25T16:55:14Z",
-      "discovered_at": "2026-10-26"
-    },
-    {
-      "name": "ComfyUI-Drama3",
-      "full_name": "PedroMarinhoDev/ComfyUI-Drama3",
-      "github": "https://github.com/PedroMarinhoDev/ComfyUI-Drama3",
-      "stars": 110,
-      "forks": 14,
-      "description": "Fish Audio Drama 3 text to speech, natively in ComfyUI: voice cloning, dialogue and inline cues on cards from 8 GB, plus a native Qwen3-ASR. Built with Fish Audio.",
-      "language": "Python",
-      "pushed_at": "2026-10-25T02:59:48Z",
-      "discovered_at": "2026-10-26"
-    },
-    {
-      "name": "speech-studio",
-      "full_name": "timoncool/speech-studio",
-      "github": "https://github.com/timoncool/speech-studio",
-      "stars": 100,
-      "forks": 10,
-      "description": "Free offline AI voice studio for Windows — text-to-speech with cloned and built-in voices, and speech recognition with speakers. Russian done right. 100% local, one native .exe, zero Python.",
-      "language": "Rust",
-      "pushed_at": "2026-10-26T02:20:58Z",
-      "discovered_at": "2026-10-26"
+      "pushed_at": "2026-10-23T10:53:06Z",
+      "discovered_at": "2026-11-02"
     }
   ]
 }
