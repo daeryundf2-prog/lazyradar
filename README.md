@@ -330,6 +330,14 @@ flowchart LR
 
 ---
 
+## 📰 airadar (AI 뉴스 레이더, 실험)
+
+[`airadar/`](airadar/) 디렉터리에는 AI 뉴스 RSS/HN 수집 → SQLite 중복 제거 → 이메일 다이제스트 → X/Threads 등 자동 포스팅 파이프라인이 들어 있습니다. 별도 비공개 저장소였던 `airadar`를 이 저장소로 옮긴 것입니다.
+
+- 자동 포스팅은 기본 꺼짐입니다 (`config.yaml`의 `dry_run: true`, `post_to_*: false`). 이 저장소의 GitHub Actions에는 airadar 스케줄 실행이 없으며, push/PR 시 테스트만 돕니다.
+- 시크릿은 저장소에 없습니다. `airadar/.env.example`을 `.env`로 복사해 로컬에서만 채우세요.
+- 설치·사용법은 [airadar/README.md](airadar/README.md) 참고.
+
 ## 🤝 기여 및 건의
 - 새로운 글로벌 오픈소스 AI 프로젝트나 획기적인 에이전트 도구가 발표되면 언제든 이슈(Issue)나 풀 리퀘스트(PR)를 남겨주세요.
 - 관리 주체: [daeryundf2-prog](https://github.com/daeryundf2-prog)

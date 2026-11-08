@@ -1,0 +1,33 @@
+# airadar 설정
+# 피드 추가/제거는 여기서. weight가 높을수록 우선 수집/발행.
+# feeds:
+#   - name: openai
+#     url: https://openai.com/news/rss.xml
+#     weight: 1.0
+
+hackernews: true
+
+# ---- 발행 ----
+# 처음엔 반드시 dry_run: true 로 테스트. 확인 후 false로.
+dry_run: true
+post_to_x: false          # X API 키 설정 후 true
+post_to_threads: false    # Threads 토큰 설정 후 true
+post_to_bluesky: false    # Bluesky 앱 비밀번호 설정 후 true (무료)
+post_to_mastodon: false   # Mastodon 토큰 설정 후 true
+x_daily_cap: 15           # X 무료 한도 ~17/일 보호용
+card_images: true         # 포스트에 브랜디드 카드 이미지 첨부
+use_llm: false            # ANTHROPIC_API_KEY / OPENAI_API_KEY 있으면 true로
+weekly_report_day: 6      # 6=일요일, run 시 주간 리포트 이메일
+max_posts_per_run: 5      # 실행당 최대 포스팅 수 (X 무료는 1일 ~17건 제한)
+min_score_to_post: 1.5    # 니치 키워드가 붙은 항목만 자동 포스팅
+hashtags: ["AI", "인공지능", "딥페이크"]
+
+# ---- 이메일 ----
+# smtp_user / email_to 는 환경변수(AIRADAR_SMTP_USER, AIRADAR_EMAIL_TO)로도 설정 가능
+smtp_host: smtp.gmail.com
+smtp_port: 465
+email_to: ""              # 받을 이메일
+email_subject_prefix: "[AI Radar]"
+max_items_in_digest: 30
+
+db_path: airadar.db
