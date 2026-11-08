@@ -1,0 +1,7 @@
+.venv/
+.env
+airadar.db
+airadar.log
+__pycache__/
+preview.html
+digests/

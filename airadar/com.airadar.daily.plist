@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.airadar.daily</string>
+    <!-- /PATH/TO/airadar를 실제 설치 위치로 수정하세요 -->
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/zsh</string>
+        <string>-c</string>
+        <string>cd /PATH/TO/airadar &amp;&amp; set -a &amp;&amp; source .env &amp;&amp; set +a &amp;&amp; .venv/bin/python -m airadar run</string>
+    </array>
+    <!-- 파일명은 daily지만 실제로는 4시간(14400초)마다 실행 -->
+    <key>StartInterval</key>
+    <integer>14400</integer>
+    <key>StandardOutPath</key>
+    <string>/PATH/TO/airadar/airadar.log</string>
+    <key>StandardErrorPath</key>
+    <string>/PATH/TO/airadar/airadar.log</string>
+</dict>
+</plist>
