@@ -1,83 +1,72 @@
 {
-  "last_searched_at": "2026-11-02 05:21:00 UTC",
-  "total_emerging": 7,
+  "last_searched_at": "2026-11-09 05:41:27 UTC",
+  "total_emerging": 6,
   "candidates": [
     {
       "name": "rea",
       "full_name": "morluto/rea",
       "github": "https://github.com/morluto/rea",
-      "stars": 419592,
-      "forks": 104797,
+      "stars": 444433,
+      "forks": 109753,
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
-      "pushed_at": "2026-11-02T03:57:21Z",
-      "discovered_at": "2026-11-02"
+      "pushed_at": "2026-11-09T05:38:49Z",
+      "discovered_at": "2026-11-09"
     },
     {
       "name": "ECC",
       "full_name": "affaan-m/ECC",
       "github": "https://github.com/affaan-m/ECC",
-      "stars": 294934,
-      "forks": 43653,
+      "stars": 299795,
+      "forks": 44279,
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "pushed_at": "2026-11-02T04:56:08Z",
-      "discovered_at": "2026-11-02"
+      "pushed_at": "2026-11-09T04:56:24Z",
+      "discovered_at": "2026-11-09"
     },
     {
       "name": "firecrawl",
       "full_name": "firecrawl/firecrawl",
       "github": "https://github.com/firecrawl/firecrawl",
-      "stars": 197733,
-      "forks": 10448,
+      "stars": 199880,
+      "forks": 10516,
       "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
       "language": "TypeScript",
-      "pushed_at": "2026-11-02T05:17:27Z",
-      "discovered_at": "2026-11-02"
+      "pushed_at": "2026-11-08T16:51:25Z",
+      "discovered_at": "2026-11-09"
     },
     {
       "name": "open-webui",
       "full_name": "open-webui/open-webui",
       "github": "https://github.com/open-webui/open-webui",
-      "stars": 157499,
-      "forks": 22901,
+      "stars": 158161,
+      "forks": 22990,
       "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-      "language": "Python",
-      "pushed_at": "2026-11-02T03:47:37Z",
-      "discovered_at": "2026-11-02"
+      "language": "Svelte",
+      "pushed_at": "2026-11-08T23:48:23Z",
+      "discovered_at": "2026-11-09"
     },
     {
       "name": "cc-switch",
       "full_name": "farion1231/cc-switch",
       "github": "https://github.com/farion1231/cc-switch",
-      "stars": 150992,
-      "forks": 9926,
+      "stars": 152852,
+      "forks": 10044,
       "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io",
       "language": "Rust",
-      "pushed_at": "2026-11-02T05:03:03Z",
-      "discovered_at": "2026-11-02"
+      "pushed_at": "2026-11-09T03:52:48Z",
+      "discovered_at": "2026-11-09"
     },
     {
-      "name": "ming-voice",
-      "full_name": "JMS1717/ming-voice",
-      "github": "https://github.com/JMS1717/ming-voice",
-      "stars": 420,
-      "forks": 24,
-      "description": "Low-latency local speech-to-speech voice assistant with Ming-3.0-audio-tiny on AMD and Nvidia GPUs. Easy setup on Windows and Linux",
+      "name": "kandinsky-s2v",
+      "full_name": "kandinskylab/kandinsky-s2v",
+      "github": "https://github.com/kandinskylab/kandinsky-s2v",
+      "stars": 56,
+      "forks": 9,
+      "description": "Speech-to-video inference: an avatar video generated from a reference frame and a speech track",
       "language": "Python",
-      "pushed_at": "2026-10-26T01:31:27Z",
-      "discovered_at": "2026-11-02"
-    },
-    {
-      "name": "crisperwhisper-turkce-kelime-zamani",
-      "full_name": "alexturkey/crisperwhisper-turkce-kelime-zamani",
-      "github": "https://github.com/alexturkey/crisperwhisper-turkce-kelime-zamani",
-      "stars": 103,
-      "forks": 11,
-      "description": "Verbatim speech-to-text with word timestamps on a 4 GB GPU: CrisperWhisper 2.0 Turbo (CT2 int8) + wav2vec2 CTC alignment. Turkish-first, Linux/WSL2.",
-      "language": "Python",
-      "pushed_at": "2026-10-23T10:53:06Z",
-      "discovered_at": "2026-11-02"
+      "pushed_at": "2026-11-05T18:57:25Z",
+      "discovered_at": "2026-11-09"
     }
   ]
 }

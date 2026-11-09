@@ -1,0 +1,906 @@
+{
+  "week": "2026-W46",
+  "generated_at": "2026-11-09 05:40:54 UTC",
+  "items": [
+    {
+      "name": "openclaw",
+      "github": "https://github.com/openclaw/openclaw",
+      "stars": 394214,
+      "forks": 82840,
+      "score": 80.79,
+      "rank_global": 1,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "hermes-agent",
+      "github": "https://github.com/nousresearch/hermes-agent",
+      "stars": 261831,
+      "forks": 58253,
+      "score": 78.71,
+      "rank_global": 2,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "n8n",
+      "github": "https://github.com/n8n-io/n8n",
+      "stars": 209874,
+      "forks": 61411,
+      "score": 77.8,
+      "rank_global": 4,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "deepseek-harness",
+      "github": "https://github.com/deepseek-ai/deepseek-harness",
+      "stars": 276747,
+      "forks": 33906,
+      "score": 78.48,
+      "rank_global": 3,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "AutoGPT",
+      "github": "https://github.com/Significant-Gravitas/AutoGPT",
+      "stars": 187956,
+      "forks": 45891,
+      "score": 77.06,
+      "rank_global": 5,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "transformers",
+      "github": "https://github.com/huggingface/transformers",
+      "stars": 168673,
+      "forks": 35143,
+      "score": 76.36,
+      "rank_global": 6,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "ollama",
+      "github": "https://github.com/ollama/ollama",
+      "stars": 186403,
+      "forks": 18974,
+      "score": 76.26,
+      "rank_global": 7,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "dify",
+      "github": "https://github.com/langgenius/dify",
+      "stars": 160711,
+      "forks": 25424,
+      "score": 75.87,
+      "rank_global": 8,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "llama.cpp",
+      "github": "https://github.com/ggerganov/llama.cpp",
+      "stars": 133779,
+      "forks": 25275,
+      "score": 75.07,
+      "rank_global": 10,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "ComfyUI",
+      "github": "https://github.com/comfyanonymous/ComfyUI",
+      "stars": 145838,
+      "forks": 17368,
+      "score": 75.12,
+      "rank_global": 9,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "browser-use",
+      "github": "https://github.com/browser-use/browser-use",
+      "stars": 120374,
+      "forks": 13449,
+      "score": 74.06,
+      "rank_global": 11,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "vllm",
+      "github": "https://github.com/vllm-project/vllm",
+      "stars": 96576,
+      "forks": 24568,
+      "score": 73.63,
+      "rank_global": 12,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "ragflow",
+      "github": "https://github.com/infiniflow/ragflow",
+      "stars": 93800,
+      "forks": 11266,
+      "score": 72.83,
+      "rank_global": 13,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "PaddleOCR",
+      "github": "https://github.com/PaddlePaddle/PaddleOCR",
+      "stars": 92456,
+      "forks": 11637,
+      "score": 60.79,
+      "rank_global": 40,
+      "status": "✨ Fresh"
+    },
+    {
+      "name": "MinerU",
+      "github": "https://github.com/opendatalab/MinerU",
+      "stars": 83336,
+      "forks": 6911,
+      "score": 71.89,
+      "rank_global": 15,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "unsloth",
+      "github": "https://github.com/unslothai/unsloth",
+      "stars": 79221,
+      "forks": 7376,
+      "score": 71.72,
+      "rank_global": 16,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "mem0",
+      "github": "https://github.com/mem0ai/mem0",
+      "stars": 68662,
+      "forks": 8168,
+      "score": 71.19,
+      "rank_global": 17,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "AnythingLLM",
+      "github": "https://github.com/Mintplex-Labs/anything-llm",
+      "stars": 68085,
+      "forks": 7689,
+      "score": 71.1,
+      "rank_global": 18,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "crewAI",
+      "github": "https://github.com/crewAIInc/crewAI",
+      "stars": 60671,
+      "forks": 9113,
+      "score": 70.75,
+      "rank_global": 19,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "llama_index",
+      "github": "https://github.com/run-llama/llama_index",
+      "stars": 52851,
+      "forks": 8533,
+      "score": 70.09,
+      "rank_global": 20,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "whisper.cpp",
+      "github": "https://github.com/ggerganov/whisper.cpp",
+      "stars": 55028,
+      "forks": 6286,
+      "score": 70.0,
+      "rank_global": 21,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "ai-job-search",
+      "github": "https://github.com/MadsLorentzen/ai-job-search",
+      "stars": 70658,
+      "forks": 22810,
+      "score": 72.21,
+      "rank_global": 14,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "LocalAI",
+      "github": "https://github.com/mudler/LocalAI",
+      "stars": 50265,
+      "forks": 4586,
+      "score": 69.34,
+      "rank_global": 22,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "langgraph",
+      "github": "https://github.com/langchain-ai/langgraph",
+      "stars": 44673,
+      "forks": 7695,
+      "score": 69.27,
+      "rank_global": 23,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "mindsdb",
+      "github": "https://github.com/mindsdb/mindsdb",
+      "stars": 39850,
+      "forks": 6230,
+      "score": 61.59,
+      "rank_global": 39,
+      "status": "⚡ Active"
+    },
+    {
+      "name": "sglang",
+      "github": "https://github.com/sgl-project/sglang",
+      "stars": 38594,
+      "forks": 10280,
+      "score": 68.89,
+      "rank_global": 24,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "diffusers",
+      "github": "https://github.com/huggingface/diffusers",
+      "stars": 34887,
+      "forks": 7469,
+      "score": 68.17,
+      "rank_global": 26,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "CopilotKit",
+      "github": "https://github.com/CopilotKit/CopilotKit",
+      "stars": 38571,
+      "forks": 4816,
+      "score": 68.23,
+      "rank_global": 25,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "dspy",
+      "github": "https://github.com/stanfordnlp/dspy",
+      "stars": 38974,
+      "forks": 3493,
+      "score": 67.99,
+      "rank_global": 27,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "FastGPT",
+      "github": "https://github.com/labring/FastGPT",
+      "stars": 30006,
+      "forks": 7368,
+      "score": 67.51,
+      "rank_global": 28,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "qdrant",
+      "github": "https://github.com/qdrant/qdrant",
+      "stars": 35479,
+      "forks": 2806,
+      "score": 67.4,
+      "rank_global": 29,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "fish-speech",
+      "github": "https://github.com/fishaudio/fish-speech",
+      "stars": 33636,
+      "forks": 2924,
+      "score": 67.2,
+      "rank_global": 30,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "smolagents",
+      "github": "https://github.com/huggingface/smolagents",
+      "stars": 30268,
+      "forks": 3200,
+      "score": 66.82,
+      "rank_global": 31,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "Qwen-Code",
+      "github": "https://github.com/QwenLM/Qwen-Code",
+      "stars": 29113,
+      "forks": 3332,
+      "score": 66.69,
+      "rank_global": 32,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "haystack",
+      "github": "https://github.com/deepset-ai/haystack",
+      "stars": 26944,
+      "forks": 3411,
+      "score": 66.37,
+      "rank_global": 33,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "fastmcp",
+      "github": "https://github.com/jlowin/fastmcp",
+      "stars": 28352,
+      "forks": 2570,
+      "score": 66.35,
+      "rank_global": 34,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "DB-GPT",
+      "github": "https://github.com/eosphoros-ai/DB-GPT",
+      "stars": 20273,
+      "forks": 3001,
+      "score": 65.02,
+      "rank_global": 35,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "ktransformers",
+      "github": "https://github.com/kvcache-ai/ktransformers",
+      "stars": 19659,
+      "forks": 1602,
+      "score": 64.34,
+      "rank_global": 36,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "weaviate",
+      "github": "https://github.com/weaviate/weaviate",
+      "stars": 16944,
+      "forks": 1434,
+      "score": 63.6,
+      "rank_global": 37,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "SubtitleEdit",
+      "github": "https://github.com/SubtitleEdit/subtitleedit",
+      "stars": 14925,
+      "forks": 1370,
+      "score": 63.01,
+      "rank_global": 38,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "SenseVoice",
+      "github": "https://github.com/FunAudioLLM/SenseVoice",
+      "stars": 9716,
+      "forks": 846,
+      "score": 48.73,
+      "rank_global": 57,
+      "status": "✨ Fresh"
+    },
+    {
+      "name": "DeepSeek-V3",
+      "github": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "stars": 104772,
+      "forks": 16748,
+      "score": 58.65,
+      "rank_global": 41,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "im-not-ai",
+      "github": "https://github.com/epoko77-ai/im-not-ai",
+      "stars": 6457,
+      "forks": 712,
+      "score": 51.81,
+      "rank_global": 48,
+      "status": "⚡ Active"
+    },
+    {
+      "name": "maka",
+      "github": "https://github.com/apache/maka",
+      "stars": 5944,
+      "forks": 577,
+      "score": 58.26,
+      "rank_global": 43,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "DeepSeek-R1",
+      "github": "https://github.com/deepseek-ai/DeepSeek-R1",
+      "stars": 92004,
+      "forks": 11693,
+      "score": 57.77,
+      "rank_global": 44,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "koharu",
+      "github": "https://github.com/koharu-rs/koharu",
+      "stars": 6624,
+      "forks": 493,
+      "score": 58.6,
+      "rank_global": 42,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "voicevox",
+      "github": "https://github.com/VOICEVOX/voicevox",
+      "stars": 3297,
+      "forks": 381,
+      "score": 55.34,
+      "rank_global": 45,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "seamless-m4t",
+      "github": "https://github.com/facebookresearch/seamless_communication",
+      "stars": 11903,
+      "forks": 1189,
+      "score": 49.91,
+      "rank_global": 53,
+      "status": "✨ Fresh"
+    },
+    {
+      "name": "moshi",
+      "github": "https://github.com/kyutai-labs/moshi",
+      "stars": 11462,
+      "forks": 1065,
+      "score": 49.65,
+      "rank_global": 54,
+      "status": "✨ Fresh"
+    },
+    {
+      "name": "aider",
+      "github": "https://github.com/Aider-AI/aider",
+      "stars": 50027,
+      "forks": 5145,
+      "score": 54.41,
+      "rank_global": 46,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "ChatTTS",
+      "github": "https://github.com/2noise/ChatTTS",
+      "stars": 39998,
+      "forks": 4244,
+      "score": 53.28,
+      "rank_global": 47,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "CosyVoice",
+      "github": "https://github.com/FunAudioLLM/CosyVoice",
+      "stars": 24338,
+      "forks": 2778,
+      "score": 50.75,
+      "rank_global": 50,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "voicevox_core",
+      "github": "https://github.com/VOICEVOX/voicevox_core",
+      "stars": 1149,
+      "forks": 171,
+      "score": 50.07,
+      "rank_global": 51,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "awesome-japanese-llm",
+      "github": "https://github.com/llm-jp/awesome-japanese-llm",
+      "stars": 1446,
+      "forks": 49,
+      "score": 49.98,
+      "rank_global": 52,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "Mistral-Large",
+      "github": "https://github.com/mistralai/mistral-common",
+      "stars": 960,
+      "forks": 196,
+      "score": 49.41,
+      "rank_global": 55,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "Qwen-Agent",
+      "github": "https://github.com/QwenLM/Qwen-Agent",
+      "stars": 17255,
+      "forks": 1764,
+      "score": 48.86,
+      "rank_global": 56,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "XAgent",
+      "github": "https://github.com/OpenBMB/XAgent",
+      "stars": 8547,
+      "forks": 901,
+      "score": 45.23,
+      "rank_global": 63,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "Kiwi",
+      "github": "https://github.com/bab2min/Kiwi",
+      "stars": 804,
+      "forks": 82,
+      "score": 47.88,
+      "rank_global": 58,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "GLM-4",
+      "github": "https://github.com/THUDM/GLM-4",
+      "stars": 7073,
+      "forks": 623,
+      "score": 44.09,
+      "rank_global": 64,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "text-generation-inference",
+      "github": "https://github.com/huggingface/text-generation-inference",
+      "stars": 10881,
+      "forks": 1285,
+      "score": 46.58,
+      "rank_global": null,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "InternVL",
+      "github": "https://github.com/OpenGVLab/InternVL",
+      "stars": 10169,
+      "forks": 792,
+      "score": 45.87,
+      "rank_global": 61,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "MindSearch",
+      "github": "https://github.com/InternLM/MindSearch",
+      "stars": 6944,
+      "forks": 687,
+      "score": 44.09,
+      "rank_global": 65,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "hibiki",
+      "github": "https://github.com/kyutai-labs/hibiki",
+      "stars": 1537,
+      "forks": 118,
+      "score": 39.01,
+      "rank_global": 70,
+      "status": "✨ Fresh"
+    },
+    {
+      "name": "donut",
+      "github": "https://github.com/clovaai/donut",
+      "stars": 6925,
+      "forks": 559,
+      "score": 43.9,
+      "rank_global": 66,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "natural-japanese",
+      "github": "https://github.com/coji/natural-japanese",
+      "stars": 2031,
+      "forks": 58,
+      "score": 51.6,
+      "rank_global": 49,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "deep-text-recognition",
+      "github": "https://github.com/clovaai/deep-text-recognition-benchmark",
+      "stars": 3934,
+      "forks": 1126,
+      "score": 42.05,
+      "rank_global": 67,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "manga-ocr",
+      "github": "https://github.com/kha-white/manga-ocr",
+      "stars": 2829,
+      "forks": 145,
+      "score": 38.84,
+      "rank_global": 72,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "mokuro",
+      "github": "https://github.com/kha-white/mokuro",
+      "stars": 1784,
+      "forks": 121,
+      "score": 36.68,
+      "rank_global": 75,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "mecab-ipadic-neologd",
+      "github": "https://github.com/neologd/mecab-ipadic-neologd",
+      "stars": 2798,
+      "forks": 285,
+      "score": 39.38,
+      "rank_global": 69,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "rhasspy",
+      "github": "https://github.com/rhasspy/rhasspy",
+      "stars": 2754,
+      "forks": 207,
+      "score": 39.03,
+      "rank_global": null,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "langchain-kr",
+      "github": "https://github.com/teddylee777/langchain-kr",
+      "stars": 2058,
+      "forks": 732,
+      "score": 38.86,
+      "rank_global": 71,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "fluent-korean",
+      "github": "https://github.com/snflkd/fluent-korean",
+      "stars": 1488,
+      "forks": 97,
+      "score": 38.7,
+      "rank_global": 73,
+      "status": "✨ Fresh"
+    },
+    {
+      "name": "FARM",
+      "github": "https://github.com/deepset-ai/FARM",
+      "stars": 1755,
+      "forks": 242,
+      "score": 37.21,
+      "rank_global": null,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "KoAlpaca",
+      "github": "https://github.com/Beomi/KoAlpaca",
+      "stars": 1571,
+      "forks": 221,
+      "score": 36.65,
+      "rank_global": 77,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "KoBERT",
+      "github": "https://github.com/SKTBrain/KoBERT",
+      "stars": 1422,
+      "forks": 374,
+      "score": 36.67,
+      "rank_global": 76,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "pororo",
+      "github": "https://github.com/kakaobrain/pororo",
+      "stars": 1302,
+      "forks": 216,
+      "score": 35.82,
+      "rank_global": null,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "evolutionary-model-merge",
+      "github": "https://github.com/SakanaAI/evolutionary-model-merge",
+      "stars": 1441,
+      "forks": 123,
+      "score": 35.77,
+      "rank_global": 78,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "TANGO",
+      "github": "https://github.com/CyberAgentAILab/TANGO",
+      "stars": 1166,
+      "forks": 150,
+      "score": 35.02,
+      "rank_global": 79,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "kuromoji",
+      "github": "https://github.com/atilika/kuromoji",
+      "stars": 1065,
+      "forks": 141,
+      "score": 34.57,
+      "rank_global": 80,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "soynlp",
+      "github": "https://github.com/lovit/soynlp",
+      "stars": 996,
+      "forks": 181,
+      "score": 37.5,
+      "rank_global": 74,
+      "status": "✨ Fresh"
+    },
+    {
+      "name": "kuromoji.js",
+      "github": "https://github.com/takuyaa/kuromoji.js",
+      "stars": 1007,
+      "forks": 154,
+      "score": 34.41,
+      "rank_global": 81,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "kogpt",
+      "github": "https://github.com/kakaobrain/kogpt",
+      "stars": 1012,
+      "forks": 132,
+      "score": 34.29,
+      "rank_global": 82,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "cmaes",
+      "github": "https://github.com/CyberAgentAILab/cmaes",
+      "stars": 516,
+      "forks": 80,
+      "score": 45.93,
+      "rank_global": 60,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "Korpora",
+      "github": "https://github.com/ko-nlp/Korpora",
+      "stars": 760,
+      "forks": 78,
+      "score": 32.59,
+      "rank_global": 83,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "KoELECTRA",
+      "github": "https://github.com/monologg/KoELECTRA",
+      "stars": 640,
+      "forks": 135,
+      "score": 32.32,
+      "rank_global": 84,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "KoGPT2",
+      "github": "https://github.com/SKT-AI/KoGPT2",
+      "stars": 559,
+      "forks": 100,
+      "score": 31.47,
+      "rank_global": 85,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "KULLM",
+      "github": "https://github.com/nlpai-lab/KULLM",
+      "stars": 586,
+      "forks": 69,
+      "score": 46.36,
+      "rank_global": 59,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "mecab-python3",
+      "github": "https://github.com/SamuraiT/mecab-python3",
+      "stars": 580,
+      "forks": 53,
+      "score": 31.08,
+      "rank_global": 86,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "KoBART",
+      "github": "https://github.com/SKT-AI/KoBART",
+      "stars": 471,
+      "forks": 94,
+      "score": 30.68,
+      "rank_global": 87,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "PyKoSpacing",
+      "github": "https://github.com/haven-jeon/PyKoSpacing",
+      "stars": 442,
+      "forks": 115,
+      "score": 45.58,
+      "rank_global": 62,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "KcBERT",
+      "github": "https://github.com/Beomi/KcBERT",
+      "stars": 497,
+      "forks": 46,
+      "score": 30.29,
+      "rank_global": 88,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "cord",
+      "github": "https://github.com/clovaai/cord",
+      "stars": 496,
+      "forks": 44,
+      "score": 30.24,
+      "rank_global": 89,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "polyglot",
+      "github": "https://github.com/EleutherAI/polyglot",
+      "stars": 489,
+      "forks": 42,
+      "score": 30.14,
+      "rank_global": 90,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "SudachiPy",
+      "github": "https://github.com/WorksApplications/SudachiPy",
+      "stars": 443,
+      "forks": 52,
+      "score": 29.9,
+      "rank_global": null,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "llm-jp-eval",
+      "github": "https://github.com/llm-jp/llm-jp-eval",
+      "stars": 174,
+      "forks": 51,
+      "score": 40.82,
+      "rank_global": 68,
+      "status": "🔥 Hot"
+    },
+    {
+      "name": "mistral-eval",
+      "github": "https://github.com/mistralai/mistral-evals",
+      "stars": 94,
+      "forks": 17,
+      "score": 22.19,
+      "rank_global": 91,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "line-distilbert-jp",
+      "github": "https://github.com/line/LINE-DistilBERT-Japanese",
+      "stars": 47,
+      "forks": 1,
+      "score": 16.72,
+      "rank_global": 92,
+      "status": "💤 Stable"
+    },
+    {
+      "name": "luminous",
+      "github": "https://github.com/Aleph-Alpha/luminous",
+      "stars": 0,
+      "forks": 0,
+      "score": 0.0,
+      "rank_global": null,
+      "status": "unavailable"
+    },
+    {
+      "name": "kotoba-whisper",
+      "github": "https://github.com/Kotoba-Tech/kotoba-whisper-v2.0",
+      "stars": 0,
+      "forks": 0,
+      "score": 0.0,
+      "rank_global": null,
+      "status": "unavailable"
+    },
+    {
+      "name": "fugumt",
+      "github": "https://github.com/staka/fugumt",
+      "stars": 0,
+      "forks": 0,
+      "score": 0.0,
+      "rank_global": null,
+      "status": "unavailable"
+    }
+  ]
+}
