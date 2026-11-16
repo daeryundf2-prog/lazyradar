@@ -1,72 +1,83 @@
 {
-  "last_searched_at": "2026-11-09 05:41:27 UTC",
-  "total_emerging": 6,
+  "last_searched_at": "2026-11-16 05:44:53 UTC",
+  "total_emerging": 7,
   "candidates": [
     {
       "name": "rea",
       "full_name": "morluto/rea",
       "github": "https://github.com/morluto/rea",
-      "stars": 444433,
-      "forks": 109753,
+      "stars": 462383,
+      "forks": 113230,
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
-      "pushed_at": "2026-11-09T05:38:49Z",
-      "discovered_at": "2026-11-09"
+      "pushed_at": "2026-11-16T05:43:11Z",
+      "discovered_at": "2026-11-16"
     },
     {
       "name": "ECC",
       "full_name": "affaan-m/ECC",
       "github": "https://github.com/affaan-m/ECC",
-      "stars": 299795,
-      "forks": 44279,
+      "stars": 303954,
+      "forks": 44794,
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "pushed_at": "2026-11-09T04:56:24Z",
-      "discovered_at": "2026-11-09"
+      "pushed_at": "2026-11-16T04:55:46Z",
+      "discovered_at": "2026-11-16"
     },
     {
       "name": "firecrawl",
       "full_name": "firecrawl/firecrawl",
       "github": "https://github.com/firecrawl/firecrawl",
-      "stars": 199880,
-      "forks": 10516,
+      "stars": 202121,
+      "forks": 10598,
       "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
       "language": "TypeScript",
-      "pushed_at": "2026-11-08T16:51:25Z",
-      "discovered_at": "2026-11-09"
+      "pushed_at": "2026-11-16T00:15:37Z",
+      "discovered_at": "2026-11-16"
     },
     {
       "name": "open-webui",
       "full_name": "open-webui/open-webui",
       "github": "https://github.com/open-webui/open-webui",
-      "stars": 158161,
-      "forks": 22990,
+      "stars": 158779,
+      "forks": 23090,
       "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
       "language": "Svelte",
-      "pushed_at": "2026-11-08T23:48:23Z",
-      "discovered_at": "2026-11-09"
+      "pushed_at": "2026-11-16T05:41:43Z",
+      "discovered_at": "2026-11-16"
     },
     {
       "name": "cc-switch",
       "full_name": "farion1231/cc-switch",
       "github": "https://github.com/farion1231/cc-switch",
-      "stars": 152852,
-      "forks": 10044,
+      "stars": 154741,
+      "forks": 10137,
       "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io",
       "language": "Rust",
-      "pushed_at": "2026-11-09T03:52:48Z",
-      "discovered_at": "2026-11-09"
+      "pushed_at": "2026-11-16T03:06:30Z",
+      "discovered_at": "2026-11-16"
     },
     {
-      "name": "kandinsky-s2v",
-      "full_name": "kandinskylab/kandinsky-s2v",
-      "github": "https://github.com/kandinskylab/kandinsky-s2v",
-      "stars": 56,
-      "forks": 9,
-      "description": "Speech-to-video inference: an avatar video generated from a reference frame and a speech track",
+      "name": "tiny-voca",
+      "full_name": "n4ze3m/tiny-voca",
+      "github": "https://github.com/n4ze3m/tiny-voca",
+      "stars": 419,
+      "forks": 50,
+      "description": "A 4.5M-parameter two-voice English text-to-speech model, trained from scratch",
       "language": "Python",
-      "pushed_at": "2026-11-05T18:57:25Z",
-      "discovered_at": "2026-11-09"
+      "pushed_at": "2026-11-15T16:48:27Z",
+      "discovered_at": "2026-11-16"
+    },
+    {
+      "name": "sophon-realtime",
+      "full_name": "adventists-ai/sophon-realtime",
+      "github": "https://github.com/adventists-ai/sophon-realtime",
+      "stars": 392,
+      "forks": 34,
+      "description": "Open full-duplex voice models that hear your tone and speak with one. One GPU with vLLM-Omni, or fully offline on a Mac with MLX. Zero-shot voice cloning, OpenAI Realtime / GPT-Live compatible, free hosted API trial. Apache-2.0.",
+      "language": "Python",
+      "pushed_at": "2026-11-16T02:24:05Z",
+      "discovered_at": "2026-11-16"
     }
   ]
 }
