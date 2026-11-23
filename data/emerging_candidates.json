@@ -1,83 +1,127 @@
 {
-  "last_searched_at": "2026-11-16 05:44:53 UTC",
-  "total_emerging": 7,
+  "last_searched_at": "2026-11-23 06:49:34 UTC",
+  "total_emerging": 11,
   "candidates": [
     {
       "name": "rea",
       "full_name": "morluto/rea",
       "github": "https://github.com/morluto/rea",
-      "stars": 462383,
-      "forks": 113230,
+      "stars": 474518,
+      "forks": 115678,
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
-      "pushed_at": "2026-11-16T05:43:11Z",
-      "discovered_at": "2026-11-16"
+      "pushed_at": "2026-11-23T06:47:43Z",
+      "discovered_at": "2026-11-23"
     },
     {
       "name": "ECC",
       "full_name": "affaan-m/ECC",
       "github": "https://github.com/affaan-m/ECC",
-      "stars": 303954,
-      "forks": 44794,
+      "stars": 309158,
+      "forks": 45488,
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "pushed_at": "2026-11-16T04:55:46Z",
-      "discovered_at": "2026-11-16"
+      "pushed_at": "2026-11-23T04:55:48Z",
+      "discovered_at": "2026-11-23"
     },
     {
       "name": "firecrawl",
       "full_name": "firecrawl/firecrawl",
       "github": "https://github.com/firecrawl/firecrawl",
-      "stars": 202121,
-      "forks": 10598,
-      "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
+      "stars": 207261,
+      "forks": 10836,
+      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "language": "TypeScript",
-      "pushed_at": "2026-11-16T00:15:37Z",
-      "discovered_at": "2026-11-16"
+      "pushed_at": "2026-11-23T06:35:14Z",
+      "discovered_at": "2026-11-23"
+    },
+    {
+      "name": "ponytail",
+      "full_name": "DietrichGebert/ponytail",
+      "github": "https://github.com/DietrichGebert/ponytail",
+      "stars": 197049,
+      "forks": 11118,
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "pushed_at": "2026-11-22T02:31:58Z",
+      "discovered_at": "2026-11-23"
     },
     {
       "name": "open-webui",
       "full_name": "open-webui/open-webui",
       "github": "https://github.com/open-webui/open-webui",
-      "stars": 158779,
-      "forks": 23090,
+      "stars": 159306,
+      "forks": 23113,
       "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
       "language": "Svelte",
-      "pushed_at": "2026-11-16T05:41:43Z",
-      "discovered_at": "2026-11-16"
+      "pushed_at": "2026-11-22T23:30:00Z",
+      "discovered_at": "2026-11-23"
     },
     {
       "name": "cc-switch",
       "full_name": "farion1231/cc-switch",
       "github": "https://github.com/farion1231/cc-switch",
-      "stars": 154741,
-      "forks": 10137,
+      "stars": 156488,
+      "forks": 10223,
       "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io",
       "language": "Rust",
-      "pushed_at": "2026-11-16T03:06:30Z",
-      "discovered_at": "2026-11-16"
+      "pushed_at": "2026-11-23T05:47:35Z",
+      "discovered_at": "2026-11-23"
     },
     {
       "name": "tiny-voca",
       "full_name": "n4ze3m/tiny-voca",
       "github": "https://github.com/n4ze3m/tiny-voca",
-      "stars": 419,
-      "forks": 50,
+      "stars": 862,
+      "forks": 105,
       "description": "A 4.5M-parameter two-voice English text-to-speech model, trained from scratch",
       "language": "Python",
-      "pushed_at": "2026-11-15T16:48:27Z",
-      "discovered_at": "2026-11-16"
+      "pushed_at": "2026-11-23T05:32:37Z",
+      "discovered_at": "2026-11-23"
     },
     {
-      "name": "sophon-realtime",
-      "full_name": "adventists-ai/sophon-realtime",
-      "github": "https://github.com/adventists-ai/sophon-realtime",
-      "stars": 392,
-      "forks": 34,
-      "description": "Open full-duplex voice models that hear your tone and speak with one. One GPU with vLLM-Omni, or fully offline on a Mac with MLX. Zero-shot voice cloning, OpenAI Realtime / GPT-Live compatible, free hosted API trial. Apache-2.0.",
-      "language": "Python",
-      "pushed_at": "2026-11-16T02:24:05Z",
-      "discovered_at": "2026-11-16"
+      "name": "elevenlabs-pro-win",
+      "full_name": "Morriswawan05/elevenlabs-pro-win",
+      "github": "https://github.com/Morriswawan05/elevenlabs-pro-win",
+      "stars": 416,
+      "forks": 0,
+      "description": "ElevenLabs - AI voice synthesis platform for text-to-speech generation, voice cloning and multilingual dubbing on Windows 10/11",
+      "language": null,
+      "pushed_at": "2026-11-21T14:52:36Z",
+      "discovered_at": "2026-11-23"
+    },
+    {
+      "name": "fonetrans",
+      "full_name": "Zujoku/fonetrans",
+      "github": "https://github.com/Zujoku/fonetrans",
+      "stars": 333,
+      "forks": 0,
+      "description": "Fonetrans: Real-Time Speech-to-Text Desktop Application with On-Device Transcription",
+      "language": "HTML",
+      "pushed_at": "2026-11-23T06:25:26Z",
+      "discovered_at": "2026-11-23"
+    },
+    {
+      "name": "Arara-voice",
+      "full_name": "davimatosms/Arara-voice",
+      "github": "https://github.com/davimatosms/Arara-voice",
+      "stars": 156,
+      "forks": 18,
+      "description": "Ditado por voz grátis, open source e 100% local para português do Brasil (Windows e macOS). Whisper no seu computador: aperte o atalho, fale e o texto é colado no cursor. Free offline voice typing / speech-to-text.",
+      "language": "Java",
+      "pushed_at": "2026-11-22T23:37:53Z",
+      "discovered_at": "2026-11-23"
+    },
+    {
+      "name": "elevenlabs-pro-win",
+      "full_name": "rodr1guezandrew356/elevenlabs-pro-win",
+      "github": "https://github.com/rodr1guezandrew356/elevenlabs-pro-win",
+      "stars": 146,
+      "forks": 0,
+      "description": "ElevenLabs - AI voice synthesis platform for text-to-speech generation, voice cloning and multilingual dubbing on Windows 10/11",
+      "language": null,
+      "pushed_at": "2026-11-21T08:17:39Z",
+      "discovered_at": "2026-11-23"
     }
   ]
 }
